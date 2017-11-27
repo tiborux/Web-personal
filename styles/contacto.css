@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #EFEFEF;
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: 100;
+   font-size: 12px;
+   line-height: 30px;
+   color: #777;
+
+}
+nav {
+    background: #e60012;
+    border-color: #bf0010;
+    height:75px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.3);
+}
+nav>ul {
+    float: right;
+    list-style: none;
+}
+
+nav>ul>li {
+    float: left;
+    line-height: 75px;
+}
+
+nav>ul>li>a {
+    display: block;
+    font-size: 18px;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+nav>ul>li>a:hover {
+    color: #E3E2E2;
+}
+
+nav>ul>li>a:hover>abbr {
+    color: white;
+}
+
+nav>ul>li>a>abbr {
+    text-decoration: none;
+}
+
+nav>a>img{
+    height: 50px;
+    width: 150px;
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+}
+#pie{
+    background: #fff;
+    min-width: 768px;
+    font-family:sans-serif;
+    clear: both;
+    position: relative;
+    padding-bottom:0.7em;
+}
+#pie .wf-column.wf-about-wix-column {
+    width: 270px;
+    padding-left:2em;
+    padding-top:2em;
+}
+#pie .pull-left, #pie .wf-column {
+    float: left;
+    padding-left:2em;
+    padding-top:2em;
+}
+#pie .wf-closing {
+    clear: both;
+    font-weight: 400;
+    color: #090909;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contacto {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contacto h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contacto input[type="text"],
+#contacto input[type="email"],
+#contacto textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 6px;
+}
+
+#contacto textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contacto button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #e60012;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contacto button[type="submit"]:hover {
+  background:#B2000F;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contacto button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}

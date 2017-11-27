@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+   font-family:sans-serif;
+
+}
+nav {
+    background: #e60012;
+    border-color: #bf0010;
+    height:75px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.3);
+}
+nav>ul {
+    float: right;
+    list-style: none;
+}
+
+nav>ul>li {
+    float: left;
+    line-height: 75px;
+}
+
+nav>ul>li>a {
+    display: block;
+    font-size: 18px;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+nav>ul>li>a:hover {
+    color: #E3E2E2;
+}
+
+nav>ul>li>a:hover>abbr {
+    color: white;
+}
+
+nav>ul>li>a>abbr {
+    text-decoration: none;
+}
+
+nav>a>img{
+    height: 50px;
+    width: 150px;
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+}
+#who {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#portada{
+height: 100%;
+width: 100%;
+}
+
+.home-row .text-block {
+     padding-right: 15%; 
+     margin-left: 2em;
+     text-align: justify;
+}
+
+.text-headline {
+    font-size: 20px;
+    font-weight: 500;
+    color:  #e60012;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 2em;
+}
+
+.container {
+    padding:3em;
+    padding-top:1.5em;
+   background-color: #FFFFFF;
+}
+.container-joycon{
+    padding-bottom:8em;
+    padding-top:1.5em;
+   background-color: #FFFFFF;
+}
+.text-center {
+    text-align: center;
+
+}
+.text-block-2{
+    padding-top: 1em;
+    width:100%;
+    display: inline-table;
+}
+.text-block{
+    padding-top: 1em;
+    width:60%;
+    display: inline-table;
+}
+.columnas {
+    display: inline;
+}
+h3{
+    margin-top: 12px;
+    text-align: center;
+    color: #555;
+    font-family:sans-serif;
+    font-size: 18px;
+}
+
+.text-project{
+        margin-top: 12px;
+        text-align: center;
+        line-height: 24px;
+        color: #555;
+        font-family:sans-serif;
+        font-size: 16px;
+}
+.text-who{
+    font-family:sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 24px;
+}
+header>hr{
+    height:2px; 
+    border:none; 
+    background-color:#C6C5C5;
+    width:10%; 
+    text-align:center; 
+    margin: 0 auto;
+    margin-top: 1em;
+}
+#pie{
+    min-width: 768px;
+    font-family:sans-serif;
+    clear: both;
+    background: #FFFFFF;
+    position: relative;
+    padding-bottom:0.7em;
+}
+#pie .wf-column.wf-about-wix-column {
+    width: 270px;
+    padding-left:2em;
+    padding-top:2em;
+}
+#pie .pull-left, #pie .wf-column {
+    float: left;
+    padding-left:2em;
+    padding-top:2em;
+}
+#pie .wf-closing {
+    clear: both;
+    font-weight: 400;
+    color: #090909;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+    line-height: 17px;
+}
+#asignaturas{
+    background-color: #fff;
+}
+
+h2{
+    color:  #e60012;
+    font-family:sans-serif;
+    padding-bottom:1em;
+}
+.container p{
+    padding-bottom:2em;
+}
+
+#modosimg{
+    height: 100%;
+    width: 100%;
+}
+
+.redes>li>a{
+    text-decoration: none;
+    color:#fff;
+    padding-left: 0.5em;
+}
+.redes>ul>li>a:hover {
+    color: #E3E2E2;
+}
+
+.redes>li{
+    padding-top: 1em;
+}
+.redes{
+    padding-top:1em;
+    list-style: none;
+}
+
+#multi{
+    height: 300px;
+    width: 500px;
+}
+
+#multirow {
+     background-color: #F4F3F3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+#joyconrow {
+        background-color: #fff;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           box-sizing: border-box;
+       }
+.joycon {
+    padding-left:2em;
+    padding-right:2em;
+    padding-top:1em;
+        width: 150px;
+        height: 400px;
+    }
+    .joyconHeader {
+        padding-top:4em;
+        height:70px;
+        vertical-align: middle;
+        text-align: center; 
+        color:  #e60012;
+
+    }
+    .joyconHeader>hr{
+        height:2px; 
+        border:none; 
+        background-color:#e60012;
+        width:10%; 
+        text-align:center; 
+        margin: 0 auto;
+        margin-top: 1em;
+
+    }
+    #titlejoycon {
+      font-size:100px;
+        vertical-align: middle;
+        text-align: center; 
+        color:  #e60012;
+        font-weight: bold; 
+
+    }
+    #textjoycon{
+        padding-top:2em;
+        vertical-align: middle;
+        text-align: center; 
+    }
+    
+    .floatLeft { float: left; }
+    
+    .floatRight { float: right; }
+
+    #trailer{
+        background-color: #F4F3F3;
+    }
